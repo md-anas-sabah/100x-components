@@ -6,6 +6,8 @@ module.exports = {
       colors: {
         "blue-20": "rgba(29, 155, 240, 0.24)",
         "twitter-blue": "#1D9BF0",
+        "twitter-blue-hover": "#1871CA",
+        "twitter-blue-disabled": "#104f7a",
         "blue-wash": "rgba(117,190,239,0.2)",
         "button-stroke": "#546A7A",
         "searchbar-fill": "#212327",
@@ -24,6 +26,7 @@ module.exports = {
         "neutral-900": "#171717",
         "neutral-950": "#0A0A0A",
         "neutral-1000": "#000",
+        "neutral-twitter-blue-disabled": "#7e7e7e",
       },
       boxShadow: {
         custom: "0px 8px 16px 0px rgba(0, 0, 0, 0.25);",
@@ -44,9 +47,10 @@ module.exports = {
       },
       width: {
         155.5: "155.5px",
-        390: "390px",
         300: "300px",
         334: "334px",
+        390: "390px",
+        442: "442px",
       },
       height: {
         px: "1px",
@@ -58,6 +62,7 @@ module.exports = {
         178.436: "178.436px",
       },
       gap: {
+        "10px": "10px",
         100: "100px",
       },
       borderRadius: {
