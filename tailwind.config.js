@@ -46,6 +46,7 @@ module.exports = {
         155.5: "155.5px",
         390: "390px",
         300: "300px",
+        334: "334px",
       },
       height: {
         px: "1px",
@@ -61,6 +62,7 @@ module.exports = {
       },
       borderRadius: {
         "4xl": "65px",
+        "5.5xl": "30px",
       },
     },
   },
