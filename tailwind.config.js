@@ -64,6 +64,7 @@ module.exports = {
       gap: {
         "10px": "10px",
         100: "100px",
+        160: "160px",
       },
       borderRadius: {
         "4xl": "65px",
