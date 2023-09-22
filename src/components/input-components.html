@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>Input Components</title>
+  </head>
+  <body class="bg-black p-4">
+    <!-- --------------INPUT DEFAULT LABEL------------------ -->
+    <fieldset
+      class="flex w-fieldset border border-neutral-500 py-4 px-3 rounded-4px focus-within:border-twitter-blue"
+    >
+      <legend
+        class="font-px-regular font-medium text-xs text-neutral-500 px-4px"
+      >
+        Label
+      </legend>
+      <input
+        type="text"
+        name=""
+        id=""
+        placeholder="label"
+        class="w-fieldset h-full text-white bg-transparent text-xlg font-px-regular font-normal outline-none"
+      />
+    </fieldset>
+    <!-- ---------------INPUT DEFAULT LABEL------------------ -->
+    <!-- --------------INPUT SELECTED LABEL------------------ -->
+    <fieldset
+      class="mt-10 flex w-fieldset border focus-within:border-twitter-blue border-neutral-500 py-4 px-3 rounded-4px"
+    >
+      <legend
+        class="font-px-regular font-medium text-xs text-neutral-500 px-4px"
+      >
+        Label
+      </legend>
+      <section class="flex justify-between">
+        <input
+          type="text"
+          name=""
+          id=""
+          placeholder="label"
+          class="w-fieldset h-full text-white text-xlg bg-transparent font-px-regular font-normal outline-none"
+        />
+        <img
+          src="../../public/images/success-icon.svg"
+          alt="success"
+          class="w-5 h-5"
+        />
+      </section>
+    </fieldset>
+    <!-- --------------INPUT SELECTED LABEL------------------ -->
+
+    <!-- -----------TWEET-INPUT FIELD------------------ -->
+    <div class="mt-10 flex gap-3">
+      <img
+        src="../../public/images/user-avatar.png"
+        alt="user"
+        class="w-9 h-9 flex-shrink-0"
+      />
+      <input
+        type="text"
+        placeholder="What's Happening?!"
+        class="self-stretch w-input outline-none bg-transparent font-px-regular text-xlg font-normal text-neutral-50"
+      />
+    </div>
+
+    <!-- -----------TWEET-INPUT FIELD------------------ -->
+
+    <!-- ---------------SEARCH BAR INPUT FIELD------------------------ -->
+
+    <div
+      class="mt-10 flex w-searchbar bg-searchbar-fill h-8.5 gap-searchbar flex-shrink-0 py-searchbar-top/bottom pr-searchbar-right pl-searchbar-left rounded-search-bar border border-transparent focus-within:border-twitter-blue"
+    >
+      <img
+        src="../../public/images/dark-theme-search-group.svg"
+        alt="searchbox"
+        class="w-search-icon h-search-icon"
+      />
+      <input
+        type="text"
+        placeholder="Search"
+        class="bg-transparent outline-none text-neutral-50 font-chirp font-normal"
+      />
+    </div>
+
+    <div
+      class="mt-10 flex w-searchbar bg-searchbar-fill h-8.5 gap-searchbar flex-shrink-0 py-searchbar-top/bottom pr-searchbar-right pl-searchbar-left rounded-search-bar border border-transparent focus-within:border-twitter-blue"
+    >
+      <img
+        src="../../public/images/dark-theme-search-group-selected.svg"
+        alt="searchbox"
+        class="w-search-icon h-search-icon"
+      />
+      <input
+        type="text"
+        placeholder="Search"
+        class="bg-transparent outline-none text-neutral-50 font-chirp font-normal"
+      />
+    </div>
+
+    <!-- ---------------SEARCH BAR INPUT FIELD------------------------ -->
+  </body>
+</html>

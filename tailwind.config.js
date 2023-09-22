@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        "base-color": "#FFFFFF",
         "blue-20": "rgba(29, 155, 240, 0.24)",
         "twitter-blue": "#1D9BF0",
         "twitter-blue-hover": "#1871CA",
@@ -44,31 +45,45 @@ module.exports = {
       fontSize: {
         2.5: "26px",
         48: "48px",
+        xlg: "1.25rem",
       },
       width: {
         155.5: "155.5px",
         300: "300px",
         334: "334px",
         390: "390px",
+        fieldset: "26.625rem",
+        input: "27.125rem",
+        searchbar: "21.75rem",
         442: "442px",
+        "search-icon": "1.1875rem",
       },
       height: {
         px: "1px",
         50: "50px",
         150: "150px",
+        8.5: "2.4375rem",
+        "search-icon": "1.1875rem",
       },
       padding: {
         236.5: "236.5px",
         178.436: "178.436px",
+        "4px": "4px",
+        "searchbar-top/bottom": "0.625rem",
+        "searchbar-right": "15.4375rem",
+        "searchbar-left": "1rem",
       },
       gap: {
         "10px": "10px",
         100: "100px",
         160: "160px",
+        searchbar: "0.9375rem",
       },
       borderRadius: {
         "4xl": "65px",
         "5.5xl": "30px",
+        "4px": "4px",
+        "search-bar": "6249.9375rem",
       },
     },
   },
