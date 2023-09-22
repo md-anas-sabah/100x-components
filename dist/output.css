@@ -608,12 +608,8 @@ video {
   height: 1.1875rem;
 }
 
-.h-13\.8125rem{
-  height: 13.8125rem;
-}
-
-.h-12{
-  height: 3rem;
+.h-11{
+  height: 2.75rem;
 }
 
 .w-14{
@@ -694,6 +690,10 @@ video {
 
 .w-searchbar{
   width: 21.75rem;
+}
+
+.w-10{
+  width: 2.5rem;
 }
 
 .w-12{
@@ -778,6 +778,10 @@ video {
 
 .gap-searchbar{
   gap: 0.9375rem;
+}
+
+.gap-1px{
+  gap: 1px;
 }
 
 .self-stretch{

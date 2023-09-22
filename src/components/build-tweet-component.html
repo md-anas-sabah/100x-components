@@ -6,9 +6,68 @@
     <link href="/dist/output.css" rel="stylesheet" />
     <title>Build Tweet Components</title>
   </head>
-  <body class="bg-neutral-800 h-screen p-10">
-    <div class="flex bg-neutral-1000 h-13.8125rem w-37.375rem py-2 px-4 gap-4">
-      <img src="../../public/images/user-avatar.png" alt="user" />
+  <body class="bg-neutral-1000 h-screen p-10">
+    <div class="flex bg-neutral-1000 w-37.375rem py-2 px-4 gap-4">
+      <img
+        src="../../public/images/user-avatar.png"
+        alt="user"
+        class="w-9 h-9 flex-shrink-0"
+      />
+      <section>
+        <div class="flex gap-2 items-center self-stretch">
+          <p class="text-neutral-50 text-base font-px-regular font-medium">
+            Name
+          </p>
+          <span class="text-neutral-500 font-px-regular font-normal text-base"
+            >@handle • 10h</span
+          >
+        </div>
+        <div
+          class="text-neutral-50 self-stretch font-px-regular text-base font-normal"
+        >
+          Writing gets easier after the first sentence.
+          <br />
+          <br />
+          Lifting gets easier after the first set.
+          <br />
+          <br />
+          People think and think and think until they finally decide to act.
+          Their attention shifts from internal to external, and the difficulty
+          they created in their mind vanishes.
+        </div>
+        <div class="flex py-3 justify-between items-center self-stretch">
+          <span
+            class="flex justify-center items-center gap-2 font-px-regular text-sm text-neutral-500 font-normal cursor-pointer"
+            ><img
+              src="../../public/images/comment-sv.svg"
+              alt="comment"
+            />11</span
+          >
+          <span
+            class="flex justify-center items-center gap-2 font-px-regular text-sm text-neutral-500 font-normal cursor-pointer"
+          >
+            <img
+              src="../../public/images/retweet-sv.svg"
+              alt="retweets"
+            />270</span
+          >
+          <span
+            class="flex justify-center items-center gap-2 font-px-regular text-sm text-neutral-500 font-normal cursor-pointer"
+          >
+            <img src="../../public/images/heart-sv.svg" alt="like" />1,869
+          </span>
+          <span
+            class="flex justify-center items-center gap-2 font-px-regular text-sm text-neutral-500 font-normal cursor-pointer"
+          >
+            <img src="../../public/images/reach-sv.svg" alt="reach" />99.6k
+          </span>
+          <span
+            class="flex justify-center items-center font-px-regular text-sm text-neutral-500 font-normal cursor-pointer"
+          >
+            <img src="../../public/images/share-sv.svg" alt="share"
+          /></span>
+        </div>
+      </section>
     </div>
   </body>
 </html>

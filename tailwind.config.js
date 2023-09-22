@@ -82,6 +82,8 @@ module.exports = {
         "0.9375rem": "0.9375rem",
       },
       gap: {
+        "1px": "1px",
+        "5px": "5px",
         "10px": "10px",
         100: "100px",
         160: "160px",
