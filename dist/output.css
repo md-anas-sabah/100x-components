@@ -608,10 +608,6 @@ video {
   height: 1.1875rem;
 }
 
-.h-11{
-  height: 2.75rem;
-}
-
 .w-14{
   width: 3.5rem;
 }
@@ -690,14 +686,6 @@ video {
 
 .w-searchbar{
   width: 21.75rem;
-}
-
-.w-10{
-  width: 2.5rem;
-}
-
-.w-12{
-  width: 3rem;
 }
 
 .flex-shrink-0{
@@ -780,10 +768,6 @@ video {
   gap: 0.9375rem;
 }
 
-.gap-1px{
-  gap: 1px;
-}
-
 .self-stretch{
   align-self: stretch;
 }
@@ -859,11 +843,6 @@ video {
 .bg-neutral-700{
   --tw-bg-opacity: 1;
   background-color: rgb(64 64 64 / var(--tw-bg-opacity));
-}
-
-.bg-neutral-800{
-  --tw-bg-opacity: 1;
-  background-color: rgb(38 38 38 / var(--tw-bg-opacity));
 }
 
 .bg-searchbar-fill{
