@@ -45,6 +45,7 @@ module.exports = {
       fontSize: {
         2.5: "26px",
         48: "48px",
+        "15px": "15px",
         xlg: "1.25rem",
       },
       width: {
@@ -56,7 +57,10 @@ module.exports = {
         input: "27.125rem",
         searchbar: "21.75rem",
         442: "442px",
+        482: "482px",
         "search-icon": "1.1875rem",
+        "input-tweet": "32rem",
+        "37.375rem": "37.375rem",
       },
       height: {
         px: "1px",
@@ -64,6 +68,9 @@ module.exports = {
         150: "150px",
         8.5: "2.4375rem",
         "search-icon": "1.1875rem",
+        "input-tweet": "22.1875rem",
+        "13.9375rem": "13.9375rem",
+        "13.8125rem": "13.8125rem",
       },
       padding: {
         236.5: "236.5px",
@@ -72,6 +79,7 @@ module.exports = {
         "searchbar-top/bottom": "0.625rem",
         "searchbar-right": "15.4375rem",
         "searchbar-left": "1rem",
+        "0.9375rem": "0.9375rem",
       },
       gap: {
         "10px": "10px",
