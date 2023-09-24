@@ -1182,6 +1182,14 @@ video {
   color: rgb(126 126 126 / var(--tw-text-opacity));
 }
 
+.group:focus-within .group-focus-within\:block{
+  display: block;
+}
+
+.group:focus-within .group-focus-within\:hidden{
+  display: none;
+}
+
 .group:focus .group-focus\:block{
   display: block;
 }
