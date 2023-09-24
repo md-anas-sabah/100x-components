@@ -70,12 +70,17 @@
     <!-- ---------------SEARCH BAR INPUT FIELD------------------------ -->
 
     <div
-      class="mt-10 flex w-searchbar bg-searchbar-fill h-8.5 gap-searchbar flex-shrink-0 py-searchbar-top/bottom pr-searchbar-right pl-searchbar-left rounded-search-bar border border-transparent focus-within:border-twitter-blue"
+      class="mt-10 group flex w-searchbar bg-searchbar-fill h-8.5 gap-searchbar flex-shrink-0 py-searchbar-top/bottom pr-searchbar-right pl-searchbar-left rounded-search-bar border border-transparent focus-within:border-twitter-blue"
     >
       <img
         src="../../public/images/dark-theme-search-group.svg"
         alt="searchbox"
-        class="w-search-icon h-search-icon"
+        class="w-search-icon h-search-icon group-focus:hidden"
+      />
+      <img
+        src="../../public/images/dark-theme-search-group-selected.svg"
+        alt="searchbox"
+        class="w-search-icon h-search-icon hidden group-focus:block"
       />
       <input
         type="text"
